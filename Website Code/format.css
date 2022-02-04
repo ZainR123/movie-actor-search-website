@@ -1,0 +1,143 @@
+/*Edits the data within the body tag*/
+body {
+    /*Changes background-color of the page*/
+    background-color: lightgreen;
+    /*changes body font*/
+    font-family: 'Alata';
+}
+/*Edits the heading of the page*/
+h1 {
+    /*Aligns header to the center of the page*/
+    text-align: center;
+    /*Increases font size to 50 pixels */
+    font-size: 50px;
+    /*Changes the font color*/
+    color: mediumseagreen
+}
+/*Edits the form data*/
+form {
+    /*auto centers margin to within container*/
+    margin: 20px auto;
+    /*sets width of container*/
+    width: 320px;
+    /*change font color*/
+    color: mediumseagreen
+}
+/*Edits the input boxes*/
+input {
+    /*Adds space around an elements content*/
+    padding: 10px;
+    /*Gets font size from parent element(form)*/
+    font-size: inherit;
+}
+/*Edits the input boxes for text inputs*/
+input[type="text"] {
+    /*Creates a box around the input*/
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    /*Adds border to box*/
+    border: 2px solid mediumseagreen;
+    /*Changes color of the box to grey*/
+    background: #e0e0e0;
+}
+/*Edits the input boxes for number inputs*/
+input[type="number"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid mediumseagreen;
+    background: #e0e0e0;
+}
+/*Edits the submit button*/
+input[type="submit"] {
+    width: 344px;
+    height: 45px;
+    border: none;
+    background: mediumseagreen;
+    color: white;
+}
+/*Edits submit button while pressed down*/
+input[type="submit"]:focus {
+    width: 344px;
+    height: 45px;
+    border: solid mediumseagreen;
+    background: white;
+    color: mediumseagreen;
+}
+/*Edits submit button while hovering over it*/
+input[type="submit"]:hover {
+    background-color: white;
+    color: mediumseagreen;
+}
+/*Edits input boxes while clicked on them*/
+input:focus {
+    background-color: white;
+}
+/*Edits class for the navigation bar*/
+.navigation {
+    background-color: mediumseagreen;
+    /*Hides overflow if text exceeds borders*/
+    overflow: hidden;
+}
+/*Edits the individual navigation bar links*/
+.navigation a {
+    /*Centers links to the left*/
+    float: left;
+    color: white;
+    /*Text is centered in the middle of the bars*/
+    text-align: center;
+    /*Spacing of links along the navigation bar*/
+    padding: 10px 112.25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/*Edits the links when hovered over*/
+.navigation a:hover {
+    background-color: white;
+    color: mediumseagreen;
+}
+/*Edits the link that is currently selected*/
+.navigation a.current {
+    background-color: white;
+    color: mediumseagreen;
+}
+/*Edits output for the search pages*/
+.output {
+    background-color: white;
+    border: 2px solid mediumseagreen;
+    text-align: center;
+    overflow: hidden;
+    width: 344px;
+    margin: auto;
+    color: mediumseagreen;
+}
+/*Edits the titles of the outputs*/
+.output b {
+    display: block;
+    width: 75%;
+    text-align: center;
+    background: mediumseagreen;
+    color: white;
+    margin: auto;
+}
+/*Edits the confirmation for whether a search result was found or if there was an error*/
+.confirmation {
+    background-color: white;
+    border: 2px solid mediumseagreen;
+    text-align: center;
+    overflow: hidden;
+    width: 344px;
+    margin: auto;
+    color: mediumseagreen;
+ 
+}
+/*Edits the text for the confirmation*/
+.confirmation c {
+    display: block;
+    width: 75%;
+    text-align: center;
+    background: mediumseagreen;
+    color: white;
+    margin: auto;
+}
